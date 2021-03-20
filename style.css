@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right, rgb(155, 1, 155), rgb(255, 2, 255));
+    color: white;
+    font-family: poppins;
+    font-weight: 500;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.dice-area{
+    display: inline-block;
+    margin: 0 100px;
+    text-align: center;
+}
+
+p{
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+h1{
+    font-size: 4rem;
+    margin:20px 0;
+}
+
+img{
+    margin-top: 50px;
+    width: 200px;
+}
+
+footer{
+    background: purple;
+    height: 100px;
+    text-align: center;
+    margin-top: 108px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-t{
+    font-size: 2rem; 
+}
+
+.f-t span{
+    color: yellow;
+}
